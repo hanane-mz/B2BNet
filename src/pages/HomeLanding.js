@@ -91,6 +91,7 @@ export default function HomeLanding() {
             <button
               onClick={() => navigate('/signup')}
               className="bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition"
+              
             >
               Démarrer maintenant
             </button>
@@ -107,7 +108,7 @@ export default function HomeLanding() {
         <motion.div
           className="relative lg:w-1/2 flex justify-center items-center"
           animate={{
-            rotateY: [0, 100, -100, 0],
+            rotateY: [0, 70, -70, 0],
             rotateX: [0, 10, -10, 0],
             scale: [1, 1.03, 1],
           }}
